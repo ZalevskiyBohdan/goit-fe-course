@@ -1,0 +1,269 @@
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.1)), url(../img/smartobject.jpg);
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    padding-bottom: 145px;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.logo{
+    text-align: center;
+    padding-top: 120px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.1em;
+    /* margin: 0 auto; */
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    text-align: center;
+}
+
+.head-box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.nav__button {
+    width: 86px;
+    height: 32px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    outline: none;
+}
+
+.nav__button:hover {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header-maintext{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-size: 1.8em;  
+    padding: 15px;  
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-top: 15px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.header-maintext::after {
+    content: "And find the perfect partner to fullfill it";
+    font-size: 0.65em;
+    display: block;
+    text-transform: none;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+    padding-top: 10px;    
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #ffffff;
+    
+}
+
+.find-button{
+    margin: 0 auto;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    background: #ff4e50;
+    color: #ffffff;
+    outline: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 0.8em; 
+}
+
+.find-button:hover{
+    cursor: pointer;
+}
+
+/* partners section */
+
+ul{
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.patners_section{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.partners_title{
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.partners_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 20px 0;
+}
+.partners_list-item {
+    width: 220px;
+    text-align: center;
+    position: relative;    
+    text-align: center;
+}
+
+.partner_pic{
+    border-radius: 50%;
+}
+
+.name {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    padding: 10px 0;
+    margin: 0;
+}
+.about {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b9b9b9;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.other-button {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff0000;
+    background-color: transparent;
+    height: 40px;
+    width: 280px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.partn1::after{
+    content: url(../img/tv.png);
+    background-color: #ff4e50;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 4px;
+    position: absolute; 
+    top: 90px;
+    right: 50px;
+}
+
+.partn2::after{
+    content: url(../img/coffee.png);
+    background-color: #1cd7ad;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 5px;
+    position: absolute; 
+    top: 90px;
+    right: 50px;
+}
+
+.partn3::after{
+    content: url(../img/bottle.png);
+    background-color: #ffa507;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 5px;
+    position: absolute; 
+    top: 90px;
+    right: 50px;
+}
+
+.partn4::after{
+    content: url(../img/telegram.png);
+    background-color: #4e73db;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 5px;
+    position: absolute; 
+    top: 90px;
+    right: 50px;
+}
+
+
+
+@media (min-width: 768px){
+    .head-box {
+        width: 90%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+        padding: 0 20px;
+    }
+
+    .container{
+        width: 758px;
+    }    
+
+    
+    .logo {
+        padding-top: 0;     
+    }
+    .partners_list {
+        width: 656px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+
+}
+
+@media (min-width: 941px) {
+    .partners_list {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 900px;
+    }
+
+    .container{
+        width: 920px;
+    }
+
+}
+

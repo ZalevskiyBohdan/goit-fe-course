@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Playfair Display', "Arial", sans-serif;
+    color: #626262;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.header {
+    padding-top: 77px;
+    margin-bottom: 100px;
+}
+
+.header__nav-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    font-size: 0px;
+}
+
+.header__nav-item {
+    display: inline-block;
+}
+
+.header__nav-item:not(:last-child) {
+    margin-right: 123px;
+}
+
+.header__nav-link {
+    font-size: 14px;
+    color: #989898;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 17px;
+    /* padding: 4px;
+    margin: 10px; */
+}
+
+.header__nav-item :hover {
+    color: #68cbf8;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+article {
+    display: inline-block;
+    width: 420px;
+}
+
+.article-left:nth-last-of-type(2),
+.article-right:nth-last-of-type(1) {
+    margin-bottom: 57px;
+}
+
+.articlee:nth-child(-n+4){
+    margin-bottom: 132px;
+}
+
+.articlee:nth-child(n+5){
+    margin-bottom: 54px;
+}
+
+.articlee:not(:nth-child(2n)){
+    margin-right: 60px;
+    }
+
+.art-list-pic {
+    margin-bottom: 32px;
+}
+
+.art-picname {
+    font-family: 'Ubuntu', "Ariel", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b4ad9e;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.art-title {
+    margin: 0 0 40px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.art-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    /* margin-bottom: 140px; */
+}
+
+.button {
+    display: block;
+    margin: auto;
+    color: #707070;
+    width: 164px;
+    height: 60px;
+    background-color: #ffffff;
+    border: solid black 0.5px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.button:hover{
+    color: rgb(228, 220, 220);
+    background-color: rgba(36, 35, 35, 0.452);
+    box-shadow: 3px 3px 3px black;
+}

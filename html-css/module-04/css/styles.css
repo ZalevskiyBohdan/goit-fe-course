@@ -1,0 +1,231 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper{
+    width: 1110px;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+}
+
+.mainlogo{
+    text-decoration: none;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #555252;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 300;
+    padding: 38px 0 0 0;
+}
+
+.mainlogo::first-letter{
+    color: #1abc9c;
+    font-weight: 900;
+}
+
+.head_nav_list{
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.head_nav_list_item{
+    display: inline-block;
+    padding: 42px 0 0 0;
+}
+
+.head_nav_list_item:not(:nth-child(7n)){
+    margin-right: 34px;
+}
+
+.head_nav_list_item_link:hover{
+    color: #1abc9c;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.head_nav_list_item_link{
+    display: block;
+    color: #0f0101;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.featured_products_section{
+    padding: 100px 0 105px 0;    
+}
+
+.section_title{
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 32px;
+    color: #515151;
+    text-transform: uppercase;
+    margin: 0 0 92px 0;  
+}
+
+.section_title::after{
+    content: '';
+    display: block;
+    width: 166px;
+    height: 7px;  
+    margin: auto;
+    margin-top: 32px;
+    background-color: #1abc9c;
+}
+
+.section_list{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.section_list_item{
+    display: inline-block;
+    width: 255px;
+}
+
+.section_list_item:hover > a > .good_box > .goods_name,
+.section_list_item:focus > a > .good_box > .goods_name{
+    background-color: #1abc9c;
+}
+
+.section_list_item:hover > a > .good_box > .goods_price,
+.section_list_item:focus > a > .good_box > .goods_name{
+    background-color: #7fd9c7;
+}
+
+.section_list_item:not(:nth-child(4n)){
+    margin-right: 30px;
+}
+
+.section_list_item:nth-child(-n+4){
+    margin-bottom: 32px;
+}
+
+.good_box{
+    width: 255px;
+    height: 40px;
+}
+
+.goods_name{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    background-color: #323232;
+}
+
+.goods_price{
+    float: right;
+    width: 55px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    font-size: 18px; 
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    background-color: #8c8c8c;
+}
+
+.section_news_list{
+    padding: 0;
+    font-size: 0;
+    margin: 0 0 50px 0;
+}
+
+.section_news_list_item{
+    display: inline-block;
+    width: 350px;
+}
+
+.section_news_list_item:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+
+
+.news_title{
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    width: 305px;
+    color: #555252;
+}
+
+.news_title::after{
+    content: '';
+    display: block;
+    width: 136px;
+    height: 3px;  
+    margin-top: 16px;
+    background-color: #1abc9c;
+}
+
+.news_text{
+    margin: 0 0 16px 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #555252;
+}
+
+.news_button{
+    display: inline-block;
+    width: 160px;
+    height: 52px;
+    border-radius: 3px;
+    padding: 13px 0;
+    background-color: #1abc9c;
+    text-decoration: none;
+    text-align: center;
+    font-family: "OpenSans", "Arial", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -.02em;
+}
+
+.news_button:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .39);
+}
+
