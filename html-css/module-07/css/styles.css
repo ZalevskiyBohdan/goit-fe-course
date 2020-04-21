@@ -2,12 +2,12 @@
 /* HEADER */
 
 .head-wrap{
-    margin: 0 auto;
+    margin: 50px auto;
+    margin-bottom: 88px;
     width: 940px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 88px;
 }
 
 .site-logo{
@@ -15,7 +15,7 @@
     font-weight: 400;
     text-decoration: none;
     color: #fed136;
-    font-family: 'Gochi Hand', Arial, Helvetica, sans-serif;
+    font-family: 'Wisdom Script', Arial, Helvetica, sans-serif;
 }
 
 .site-navigation-list{
@@ -219,6 +219,8 @@ textarea{
     color: white;
     text-transform: uppercase;
     font-weight: 800;
+
+    cursor: pointer;
 }
 
 
