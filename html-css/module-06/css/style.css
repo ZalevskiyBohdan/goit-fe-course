@@ -2,7 +2,9 @@
 .flex_box {
 display: flex;
 justify-content: space-between;
+padding-top: 30px;
 }
+
 ul {
     list-style: none;
     padding: 0;
@@ -260,13 +262,9 @@ footer {
 
 }
 
-::placeholder {
-    text-align: center;
-}
-
 input {
-    width: 228px;
-    padding: 0;
+    width: 208px;
+    padding: 0 10px;
     border: 1px solid #999999;
     font-family: 'Roboto' , sans-serif;
     font-style: italic;
