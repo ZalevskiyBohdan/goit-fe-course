@@ -77,7 +77,7 @@
     }
     
     .section-name {
-        font-family: 'Courgette', cursive, sans-serif;
+        font-family: 'Kaushan script', cursive, sans-serif;
 
     }
     .section-descr {
@@ -189,9 +189,8 @@
         background-image: url(../img/IMAGE.svg);
     }
     .section{
-        margin-top: 100px;
         padding-bottom: 200px;
-    }
+    } 
   
     .team_heading {
         font-family: 'Roboto' , sans-serif;
